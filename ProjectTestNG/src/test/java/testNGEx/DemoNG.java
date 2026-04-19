@@ -1,0 +1,16 @@
+package testNGEx;
+
+import org.testng.annotations.Test;
+
+public class DemoNG {
+  @Test
+  public void A() {
+	  System.out.println("Hi");
+  }
+  public void B() {
+	  System.out.println("Hello");
+  }
+  public void C() {
+	  System.out.println("Welcome");
+  }
+}

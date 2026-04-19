@@ -1,0 +1,9 @@
+package testNGEx;
+
+import org.testng.annotations.Test;
+
+public class AssertLogin {
+  @Test
+  public void f() {
+  }
+}

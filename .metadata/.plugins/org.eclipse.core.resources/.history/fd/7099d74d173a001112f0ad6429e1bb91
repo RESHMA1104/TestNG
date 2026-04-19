@@ -1,0 +1,35 @@
+package testNGEx;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import java.time.Duration;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+public class Demoblaze {
+	WebDriver driver;
+  @Test
+  public void f() {
+	  driver.findElement(By.id("login2")).click();
+	  driver.findElement(By.id("loginusername")).sendKeys("KiotAdmin");
+      driver.findElement(By.id("loginpassword")).sendKeys("Kiot1");
+      driver.findElement(By.xpath("//button[text()='Log in']")).click();
+      driver.findElement(By.id("nameofuser"));
+      System.out.println("Login Successful");
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+	  ChromeOptions options = new ChromeOptions();
+      options.addArguments("--start-maximized");  
+      driver = new ChromeDriver(options);  
+      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+      driver.get("https://demoblaze.com/");
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+	  driver.quit();
+  }
+
+}
+

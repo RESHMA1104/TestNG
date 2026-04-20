@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Selenium\ProjectTestNG"/>
+			<item value="C:\Selenium\ProjectTestNG\src\test\java\testNGEx\Test_Assertions.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,13 +45,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="TestNG"/>
+			<item value="TestNGParameter"/>
 		</list>
 		<list key="name">
-			<item value="TestNGDemo"/>
+			<item value="DemoProject"/>
 		</list>
 		<list key="artifactId">
-			<item value="ProjectTestNG"/>
+			<item value="ParameterDemo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

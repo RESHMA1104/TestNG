@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="27" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T15:50:51 IST" name="Suite" finished-at="2026-04-20T15:52:39 IST" duration-ms="108237">
+    <groups>
+      <group name="groupB">
+        <method signature="GroupsFormatting.PasswordWrong()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" name="PasswordWrong" class="testNGEx.GroupsFormatting"/>
+      </group> <!-- groupB -->
+      <group name="groupA">
+        <method signature="GroupsFormatting.Valid()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" name="Valid" class="testNGEx.GroupsFormatting"/>
+      </group> <!-- groupA -->
+    </groups>
+    <test started-at="2026-04-20T15:50:51 IST" name="Test" finished-at="2026-04-20T15:52:39 IST" duration-ms="108237">
+      <class name="testNGEx.DemoNG">
+        <test-method signature="A()[pri:0, instance:testNGEx.DemoNG@54c562f7]" started-at="2026-04-20T15:50:56 IST" name="A" finished-at="2026-04-20T15:50:56 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+      </class> <!-- testNGEx.DemoNG -->
+      <class name="testNGEx.EnabledTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.EnabledTest@6af93788]" started-at="2026-04-20T15:52:14 IST" name="beforeMethod" finished-at="2026-04-20T15:52:17 IST" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Valid()[pri:1, instance:testNGEx.EnabledTest@6af93788]" started-at="2026-04-20T15:52:17 IST" name="Valid" finished-at="2026-04-20T15:52:18 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.EnabledTest@6af93788]" started-at="2026-04-20T15:52:18 IST" name="afterMethod" finished-at="2026-04-20T15:52:18 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.EnabledTest@6af93788]" started-at="2026-04-20T15:52:31 IST" name="beforeMethod" finished-at="2026-04-20T15:52:34 IST" duration-ms="3089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginWrong()[pri:3, instance:testNGEx.EnabledTest@6af93788]" started-at="2026-04-20T15:52:34 IST" name="LoginWrong" finished-at="2026-04-20T15:52:35 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWrong -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.EnabledTest@6af93788]" started-at="2026-04-20T15:52:35 IST" name="afterMethod" finished-at="2026-04-20T15:52:35 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGEx.EnabledTest -->
+      <class name="testNGEx.NewTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.NewTest@ef9296d]" started-at="2026-04-20T15:50:51 IST" name="beforeTest" finished-at="2026-04-20T15:50:56 IST" duration-ms="5261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="validation()[pri:0, instance:testNGEx.NewTest@ef9296d]" started-at="2026-04-20T15:52:00 IST" name="validation" finished-at="2026-04-20T15:52:00 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.NewTest@ef9296d]" started-at="2026-04-20T15:52:39 IST" name="afterTest" finished-at="2026-04-20T15:52:39 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGEx.NewTest -->
+      <class name="testNGEx.dependsonMethodTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.dependsonMethodTest@4ddced80]" started-at="2026-04-20T15:51:51 IST" name="beforeTest" finished-at="2026-04-20T15:51:56 IST" duration-ms="5771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="validation()[pri:0, instance:testNGEx.dependsonMethodTest@4ddced80]" started-at="2026-04-20T15:51:56 IST" name="validation" finished-at="2026-04-20T15:51:59 IST" duration-ms="3040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.dependsonMethodTest@4ddced80]" started-at="2026-04-20T15:51:59 IST" name="afterTest" finished-at="2026-04-20T15:52:00 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.dependsonMethodTest@4ddced80]" started-at="2026-04-20T15:52:00 IST" name="beforeTest" finished-at="2026-04-20T15:52:03 IST" duration-ms="2975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="validation_1()[pri:0, instance:testNGEx.dependsonMethodTest@4ddced80]" started-at="2026-04-20T15:52:03 IST" name="validation_1" finished-at="2026-04-20T15:52:05 IST" depends-on-methods="testNGEx.dependsonMethodTest.validation" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_1 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.dependsonMethodTest@4ddced80]" started-at="2026-04-20T15:52:05 IST" name="afterTest" finished-at="2026-04-20T15:52:05 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.dependsonMethodTest@4ddced80]" started-at="2026-04-20T15:52:05 IST" name="beforeTest" finished-at="2026-04-20T15:52:08 IST" duration-ms="3407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="validation_2()[pri:0, instance:testNGEx.dependsonMethodTest@4ddced80]" started-at="2026-04-20T15:52:08 IST" name="validation_2" finished-at="2026-04-20T15:52:10 IST" depends-on-methods="testNGEx.dependsonMethodTest.validation" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_2 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.dependsonMethodTest@4ddced80]" started-at="2026-04-20T15:52:10 IST" name="afterTest" finished-at="2026-04-20T15:52:10 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGEx.dependsonMethodTest -->
+      <class name="testNGEx.GroupsFormatting">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" started-at="2026-04-20T15:51:11 IST" name="beforeMethod" finished-at="2026-04-20T15:51:15 IST" duration-ms="3938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="PasswordWrong()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" started-at="2026-04-20T15:51:15 IST" name="PasswordWrong" finished-at="2026-04-20T15:51:16 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordWrong -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" started-at="2026-04-20T15:51:16 IST" name="afterMethod" finished-at="2026-04-20T15:51:16 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" started-at="2026-04-20T15:51:28 IST" name="beforeMethod" finished-at="2026-04-20T15:51:31 IST" duration-ms="3265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Valid()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" started-at="2026-04-20T15:51:31 IST" name="Valid" finished-at="2026-04-20T15:51:32 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" started-at="2026-04-20T15:51:32 IST" name="afterMethod" finished-at="2026-04-20T15:51:32 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" started-at="2026-04-20T15:51:32 IST" name="beforeMethod" finished-at="2026-04-20T15:51:35 IST" duration-ms="3322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginWrong()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" started-at="2026-04-20T15:51:35 IST" name="LoginWrong" depends-on-groups="groupA" finished-at="2026-04-20T15:51:36 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWrong -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.GroupsFormatting@1a04f701]" started-at="2026-04-20T15:51:36 IST" name="afterMethod" finished-at="2026-04-20T15:51:37 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGEx.GroupsFormatting -->
+      <class name="testNGEx.AssertDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.AssertDemo@1184ab05]" started-at="2026-04-20T15:51:06 IST" name="beforeTest" finished-at="2026-04-20T15:51:09 IST" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="LoginWrong()[pri:0, instance:testNGEx.AssertDemo@1184ab05]" started-at="2026-04-20T15:51:09 IST" name="LoginWrong" finished-at="2026-04-20T15:51:11 IST" duration-ms="1881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWrong -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.AssertDemo@1184ab05]" started-at="2026-04-20T15:51:11 IST" name="afterTest" finished-at="2026-04-20T15:51:11 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.AssertDemo@1184ab05]" started-at="2026-04-20T15:51:22 IST" name="beforeTest" finished-at="2026-04-20T15:51:26 IST" duration-ms="3318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="PasswordWrong()[pri:0, instance:testNGEx.AssertDemo@1184ab05]" started-at="2026-04-20T15:51:26 IST" name="PasswordWrong" finished-at="2026-04-20T15:51:27 IST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordWrong -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.AssertDemo@1184ab05]" started-at="2026-04-20T15:51:27 IST" name="afterTest" finished-at="2026-04-20T15:51:28 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.AssertDemo@1184ab05]" started-at="2026-04-20T15:51:43 IST" name="beforeTest" finished-at="2026-04-20T15:51:47 IST" duration-ms="4019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="valid()[pri:0, instance:testNGEx.AssertDemo@1184ab05]" started-at="2026-04-20T15:51:47 IST" name="valid" finished-at="2026-04-20T15:51:50 IST" duration-ms="3497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.AssertDemo@1184ab05]" started-at="2026-04-20T15:51:50 IST" name="afterTest" finished-at="2026-04-20T15:51:51 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGEx.AssertDemo -->
+      <class name="testNGEx.IgnoreTest$Demoblaze1">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.IgnoreTest$Demoblaze1@1b1473ab]" started-at="2026-04-20T15:52:10 IST" name="beforeMethod" finished-at="2026-04-20T15:52:13 IST" duration-ms="2981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Valid()[pri:1, instance:testNGEx.IgnoreTest$Demoblaze1@1b1473ab]" started-at="2026-04-20T15:52:13 IST" name="Valid" finished-at="2026-04-20T15:52:14 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.IgnoreTest$Demoblaze1@1b1473ab]" started-at="2026-04-20T15:52:14 IST" name="afterMethod" finished-at="2026-04-20T15:52:14 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.IgnoreTest$Demoblaze1@1b1473ab]" started-at="2026-04-20T15:52:22 IST" name="beforeMethod" finished-at="2026-04-20T15:52:26 IST" duration-ms="3771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="PasswordWrong()[pri:2, instance:testNGEx.IgnoreTest$Demoblaze1@1b1473ab]" started-at="2026-04-20T15:52:26 IST" name="PasswordWrong" finished-at="2026-04-20T15:52:27 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordWrong -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.IgnoreTest$Demoblaze1@1b1473ab]" started-at="2026-04-20T15:52:27 IST" name="afterMethod" finished-at="2026-04-20T15:52:27 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGEx.IgnoreTest$Demoblaze1 -->
+      <class name="testNGEx.Test_Assertions">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.Test_Assertions@1534f01b]" started-at="2026-04-20T15:50:56 IST" name="beforeTest" finished-at="2026-04-20T15:51:01 IST" duration-ms="4714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="LoginWrong()[pri:0, instance:testNGEx.Test_Assertions@1534f01b]" started-at="2026-04-20T15:51:01 IST" name="LoginWrong" finished-at="2026-04-20T15:51:06 IST" duration-ms="4812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWrong -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.Test_Assertions@1534f01b]" started-at="2026-04-20T15:51:06 IST" name="afterTest" finished-at="2026-04-20T15:51:06 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.Test_Assertions@1534f01b]" started-at="2026-04-20T15:51:16 IST" name="beforeTest" finished-at="2026-04-20T15:51:20 IST" duration-ms="4067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="PasswordWrong()[pri:0, instance:testNGEx.Test_Assertions@1534f01b]" started-at="2026-04-20T15:51:20 IST" name="PasswordWrong" finished-at="2026-04-20T15:51:22 IST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordWrong -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.Test_Assertions@1534f01b]" started-at="2026-04-20T15:51:22 IST" name="afterTest" finished-at="2026-04-20T15:51:22 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.Test_Assertions@1534f01b]" started-at="2026-04-20T15:51:37 IST" name="beforeTest" finished-at="2026-04-20T15:51:40 IST" duration-ms="3119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="valid()[pri:0, instance:testNGEx.Test_Assertions@1534f01b]" started-at="2026-04-20T15:51:40 IST" name="valid" finished-at="2026-04-20T15:51:43 IST" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.Test_Assertions@1534f01b]" started-at="2026-04-20T15:51:43 IST" name="afterTest" finished-at="2026-04-20T15:51:43 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGEx.Test_Assertions -->
+      <class name="testNGEx.Assertion">
+        <test-method signature="testAssertion()[pri:0, instance:testNGEx.Assertion@2f7c2f4f]" started-at="2026-04-20T15:51:37 IST" name="testAssertion" finished-at="2026-04-20T15:51:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssertion -->
+      </class> <!-- testNGEx.Assertion -->
+      <class name="testNGEx.DemoBeforeAfter">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:50:51 IST" name="beforeSuite" finished-at="2026-04-20T15:50:51 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:50:51 IST" name="beforeTest" finished-at="2026-04-20T15:50:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:51:28 IST" name="beforeClass" finished-at="2026-04-20T15:51:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:51:28 IST" name="beforeMethod" finished-at="2026-04-20T15:51:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:51:28 IST" name="Test" finished-at="2026-04-20T15:51:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:51:28 IST" name="afterMethod" finished-at="2026-04-20T15:51:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="Testlogin()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:51:28 IST" name="Testlogin" finished-at="2026-04-20T15:51:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testlogin -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:51:28 IST" name="beforeMethod" finished-at="2026-04-20T15:51:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:51:28 IST" name="afterMethod" finished-at="2026-04-20T15:51:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:51:28 IST" name="afterClass" finished-at="2026-04-20T15:51:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:52:39 IST" name="afterTest" finished-at="2026-04-20T15:52:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGEx.DemoBeforeAfter@10e92f8f]" started-at="2026-04-20T15:52:39 IST" name="afterSuite" finished-at="2026-04-20T15:52:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNGEx.DemoBeforeAfter -->
+      <class name="testNGEx.Demoblaze">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.Demoblaze@7ce3cb8e]" started-at="2026-04-20T15:52:18 IST" name="beforeMethod" finished-at="2026-04-20T15:52:21 IST" duration-ms="3143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Valid()[pri:1, instance:testNGEx.Demoblaze@7ce3cb8e]" started-at="2026-04-20T15:52:21 IST" name="Valid" finished-at="2026-04-20T15:52:22 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.Demoblaze@7ce3cb8e]" started-at="2026-04-20T15:52:22 IST" name="afterMethod" finished-at="2026-04-20T15:52:22 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.Demoblaze@7ce3cb8e]" started-at="2026-04-20T15:52:27 IST" name="beforeMethod" finished-at="2026-04-20T15:52:30 IST" duration-ms="3150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="PasswordWrong()[pri:2, instance:testNGEx.Demoblaze@7ce3cb8e]" started-at="2026-04-20T15:52:30 IST" name="PasswordWrong" finished-at="2026-04-20T15:52:31 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordWrong -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.Demoblaze@7ce3cb8e]" started-at="2026-04-20T15:52:31 IST" name="afterMethod" finished-at="2026-04-20T15:52:31 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGEx.Demoblaze@7ce3cb8e]" started-at="2026-04-20T15:52:35 IST" name="beforeMethod" finished-at="2026-04-20T15:52:38 IST" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginWrong()[pri:3, instance:testNGEx.Demoblaze@7ce3cb8e]" started-at="2026-04-20T15:52:38 IST" name="LoginWrong" finished-at="2026-04-20T15:52:38 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWrong -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGEx.Demoblaze@7ce3cb8e]" started-at="2026-04-20T15:52:38 IST" name="afterMethod" finished-at="2026-04-20T15:52:39 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGEx.Demoblaze -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

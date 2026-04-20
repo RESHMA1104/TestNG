@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGEx.AssertLogin">
+      <class name="testNGEx.DemoBlazeDPPassInvalid">
         <methods>
           <include name="afterMethod"/>
+          <include name="Search" invocation-numbers="0"/>
           <include name="beforeMethod"/>
-          <include name="Valid"/>
         </methods>
-      </class> <!-- testNGEx.AssertLogin -->
+      </class> <!-- testNGEx.DemoBlazeDPPassInvalid -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

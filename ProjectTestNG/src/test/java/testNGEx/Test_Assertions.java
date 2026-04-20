@@ -57,8 +57,9 @@ public class Test_Assertions {
   @BeforeMethod
   public void beforeTest() {
 	  ChromeOptions options=new ChromeOptions();
-	  options.addArguments("---start-maximized--");
 	  driver = new ChromeDriver(options);
+	  options.addArguments("---start-maximized--");
+	  options.addArguments("--headless");
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	  driver.get("https://demoblaze.com/");
   }

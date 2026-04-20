@@ -32,8 +32,9 @@ public class GroupsFormatting {
   @BeforeMethod
   public void beforeMethod() {
 	  ChromeOptions options = new ChromeOptions();
+	  driver = new ChromeDriver(options);  
       options.addArguments("--start-maximized");
-      driver = new ChromeDriver(options);  
+      options.addArguments("--headless");
       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
       driver.get("https://demoblaze.com/");
   }

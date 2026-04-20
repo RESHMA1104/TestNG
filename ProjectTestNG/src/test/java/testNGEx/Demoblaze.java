@@ -33,6 +33,7 @@ public class Demoblaze {
   public void beforeMethod() {
 	  ChromeOptions options = new ChromeOptions();
       options.addArguments("--start-maximized");
+      options.addArguments("--headless");
       driver = new ChromeDriver(options);  
       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
       driver.get("https://demoblaze.com/");

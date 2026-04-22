@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-22T10:26:12 IST" name="Default suite" finished-at="2026-04-22T10:26:29 IST" duration-ms="17336">
+    <groups>
+    </groups>
+    <test started-at="2026-04-22T10:26:12 IST" name="Default test" finished-at="2026-04-22T10:26:29 IST" duration-ms="17336">
+      <class name="com.tests.Ninjatests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:13 IST" name="setup" finished-at="2026-04-22T10:26:18 IST" duration-ms="4271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:13 IST" name="setup" finished-at="2026-04-22T10:26:17 IST" duration-ms="4113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:17 IST" name="invalidLogin" data-provider="invalidData" finished-at="2026-04-22T10:26:21 IST" duration-ms="3636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RajaRaja12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raja123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:18 IST" name="invalidLogin" data-provider="invalidData" finished-at="2026-04-22T10:26:21 IST" duration-ms="3661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RajaRaja@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raja@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:21 IST" name="tearDown" finished-at="2026-04-22T10:26:22 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:21 IST" name="tearDown" finished-at="2026-04-22T10:26:22 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:22 IST" name="setup" finished-at="2026-04-22T10:26:24 IST" duration-ms="1951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchMacProducts()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:24 IST" name="searchMacProducts" finished-at="2026-04-22T10:26:24 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMacProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:24 IST" name="tearDown" finished-at="2026-04-22T10:26:25 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:25 IST" name="setup" finished-at="2026-04-22T10:26:27 IST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:27 IST" name="validLogin" data-provider="validData" finished-at="2026-04-22T10:26:29 IST" duration-ms="2343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RajaRaja12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raja@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:29 IST" name="tearDown" finished-at="2026-04-22T10:26:29 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.Ninjatests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

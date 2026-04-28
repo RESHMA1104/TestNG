@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Selenium\ParameterDemo\src\test\java\parameterdemo\params.java"/>
 			<item value="C:\Selenium\ProjectTestNG"/>
 			<item value="C:\Selenium\ProjectTestNG\src\test\java\testNGEx\Test_Assertions.java"/>
 		</list>
@@ -45,12 +46,24 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="ListnersProject"/>
+			<item value="Logging"/>
+			<item value="TutorialsNinja"/>
+			<item value="DataDrivenFramework"/>
 			<item value="TestNGParameter"/>
 		</list>
 		<list key="name">
+			<item value="Listners"/>
+			<item value="LoggingDemo"/>
+			<item value="TutorialsProject"/>
+			<item value="DataProviderDemo"/>
 			<item value="DemoProject"/>
 		</list>
 		<list key="artifactId">
+			<item value="ListnersDemo"/>
+			<item value="Log4jDemo"/>
+			<item value="NinjaDemo"/>
+			<item value="DataDriven"/>
 			<item value="ParameterDemo"/>
 		</list>
 		<list key="projectNameTemplate">

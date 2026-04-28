@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-22T10:26:12 IST" name="Default suite" finished-at="2026-04-22T10:26:29 IST" duration-ms="17336">
+  <suite started-at="2026-04-27T20:46:50 IST" name="Suite" finished-at="2026-04-27T20:47:27 IST" duration-ms="37164">
     <groups>
     </groups>
-    <test started-at="2026-04-22T10:26:12 IST" name="Default test" finished-at="2026-04-22T10:26:29 IST" duration-ms="17336">
+    <test started-at="2026-04-27T20:46:50 IST" name="Test" finished-at="2026-04-27T20:47:27 IST" duration-ms="37164">
       <class name="com.tests.Ninjatests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:13 IST" name="setup" finished-at="2026-04-22T10:26:18 IST" duration-ms="4271" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:46:51 IST" name="setup" finished-at="2026-04-27T20:47:00 IST" duration-ms="9140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:13 IST" name="setup" finished-at="2026-04-22T10:26:17 IST" duration-ms="4113" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:46:51 IST" name="setup" finished-at="2026-04-27T20:46:59 IST" duration-ms="8257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:17 IST" name="invalidLogin" data-provider="invalidData" finished-at="2026-04-22T10:26:21 IST" duration-ms="3636" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RajaRaja12@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Raja123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:18 IST" name="invalidLogin" data-provider="invalidData" finished-at="2026-04-22T10:26:21 IST" duration-ms="3661" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:46:59 IST" name="invalidLogin" data-provider="invalidData" finished-at="2026-04-27T20:47:03 IST" duration-ms="3773" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,31 +31,73 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:21 IST" name="tearDown" finished-at="2026-04-22T10:26:22 IST" duration-ms="477" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:00 IST" name="invalidLogin" data-provider="invalidData" finished-at="2026-04-27T20:47:04 IST" duration-ms="3187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RajaRaja12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raja123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:03 IST" name="tearDown" finished-at="2026-04-27T20:47:03 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:21 IST" name="tearDown" finished-at="2026-04-22T10:26:22 IST" duration-ms="481" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:04 IST" name="tearDown" finished-at="2026-04-27T20:47:04 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:22 IST" name="setup" finished-at="2026-04-22T10:26:24 IST" duration-ms="1951" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:04 IST" name="setup" finished-at="2026-04-27T20:47:09 IST" duration-ms="5623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchMacProducts()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:24 IST" name="searchMacProducts" finished-at="2026-04-22T10:26:24 IST" duration-ms="665" status="PASS">
+        <test-method signature="searchInvalidProduct(java.lang.String)[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:09 IST" name="searchInvalidProduct" finished-at="2026-04-27T20:47:10 IST" duration-ms="784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchMacProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:24 IST" name="tearDown" finished-at="2026-04-22T10:26:25 IST" duration-ms="300" status="PASS">
+        </test-method> <!-- searchInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:10 IST" name="tearDown" finished-at="2026-04-27T20:47:11 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:25 IST" name="setup" finished-at="2026-04-22T10:26:27 IST" duration-ms="1829" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:11 IST" name="setup" finished-at="2026-04-27T20:47:16 IST" duration-ms="5058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:27 IST" name="validLogin" data-provider="validData" finished-at="2026-04-22T10:26:29 IST" duration-ms="2343" status="PASS">
+        <test-method signature="searchValidProduct(java.lang.String)[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:16 IST" name="searchValidProduct" finished-at="2026-04-27T20:47:17 IST" duration-ms="1291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:17 IST" name="tearDown" finished-at="2026-04-27T20:47:17 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:17 IST" name="setup" finished-at="2026-04-27T20:47:23 IST" duration-ms="6217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:23 IST" name="validLogin" data-provider="validData" finished-at="2026-04-27T20:47:27 IST" duration-ms="3758" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,11 +113,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@cecf639]" started-at="2026-04-22T10:26:29 IST" name="tearDown" finished-at="2026-04-22T10:26:29 IST" duration-ms="312" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Ninjatests@8dbfffb]" started-at="2026-04-27T20:47:27 IST" name="tearDown" finished-at="2026-04-27T20:47:27 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.Ninjatests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

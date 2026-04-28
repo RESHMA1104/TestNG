@@ -13,7 +13,6 @@ public class ExcelUtils {
     public Object[][] invalidDataProvider() {
         return getInvalidData(path, "Sheet1");
     }
-
     public Object[][] getValidData(String fileName, String sheetName) {
         Object[][] data = null;
         try {
@@ -35,9 +34,7 @@ public class ExcelUtils {
         return data;
     }
     public Object[][] getInvalidData(String fileName, String sheetName) {
-
         Object[][] data = null;
-
         try {
             FileInputStream fis = new FileInputStream(fileName);
             XSSFWorkbook workbook = new XSSFWorkbook(fis);

@@ -1,40 +1,54 @@
 package com.tests;
+
+import org.testng.annotations.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.time.Duration;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
+
 @Listeners(DemoListnersFail.class)
 public class demotest {
 
-        public WebDriver driver;
-       
-	    @BeforeMethod
-	    public void beforeTest() {
-	        driver = new ChromeDriver();
-	        driver.manage().window().maximize();
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	        driver.get("https://tutorialsninja.com/demo/index.php");
-	    }
-	   
-	    public void loginTest() {
-	        driver.findElement(By.xpath("//span[normalize-space()='My Account']")).click();
-	        driver.findElement(By.xpath("//a[normalize-space()='Login']")).click();
-	        driver.findElement(By.id("input-email")).sendKeys("RajaRaja12@gmail.com");
-	        driver.findElement(By.id("input-password")).sendKeys("Raja@123");
-	        driver.findElement(By.xpath("//input[@value='Login']")).click();
+    public WebDriver driver;
+    private static final Logger log = LogManager.getLogger(demotest.class);
 
-	        String title = driver.getTitle();
-	        Assert.assertTrue(title.contains("Accountss"));
-	    }
+    @BeforeMethod
+    public void beforeTest() {
+        log.info("Launching browser");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.get("https://tutorialsninja.com/demo/index.php");
+    }
 
-	    @AfterMethod
-	    public void afterTest() {
-	        if (driver != null) {
-	            driver.quit();
-	        }
-	    }
-	}
+    @Test
+    public void loginTest() {
+        log.info("Clicking My Account");
+        driver.findElement(By.xpath("//span[normalize-space()='My Account']")).click();
+
+        log.info("Clicking Login");
+        driver.findElement(By.xpath("//a[normalize-space()='Login']")).click();
+
+        log.info("Entering credentials");
+        driver.findElement(By.id("input-email")).sendKeys("RajaRaja12@gmail.com");
+        driver.findElement(By.id("input-password")).sendKeys("Raja@123");
+
+        driver.findElement(By.xpath("//input[@value='Login']")).click();
+
+        String title = driver.getTitle();
+        log.info("Page title is: " + title);
+
+        Assert.assertTrue(title.contains("Accounts"));
+    }
+
+    @AfterMethod
+    public void afterTest() {
+        log.info("Closing browser");
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+}

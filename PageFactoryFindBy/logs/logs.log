@@ -1,0 +1,38 @@
+[ERROR] 2026-04-29 16:17:27.692 [main] listeners - Test FAILED: loginvalidTest
+[DEBUG] 2026-04-29 16:20:16.642 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-29 16:20:16.651 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-29 16:20:17.110 [TestNG-PoolService-1] BaseTest - Setting up WebDriver for thread: Thread[#38,TestNG-PoolService-1,5,main]
+[INFO ] 2026-04-29 16:20:22.022 [TestNG-PoolService-1] BaseTest - Browser launched and navigated to OrangeHRM.
+[INFO ] 2026-04-29 16:20:22.024 [TestNG-PoolService-1] listeners - loginvalidTest test started
+[INFO ] 2026-04-29 16:20:22.832 [TestNG-PoolService-1] DashBoardTest - Login attempted with credentials
+[INFO ] 2026-04-29 16:20:25.155 [TestNG-PoolService-1] DashBoardTest - Dashboard page title retrieved: Dashboard
+[INFO ] 2026-04-29 16:20:25.157 [TestNG-PoolService-1] DashBoardTest - loginValidTest PASSED.
+[INFO ] 2026-04-29 16:20:25.160 [TestNG-PoolService-1] listeners - Test PASSED: loginvalidTest
+[INFO ] 2026-04-29 16:20:25.161 [TestNG-PoolService-1] BaseTest - Closing browser for thread: Thread[#38,TestNG-PoolService-1,5,main]
+[INFO ] 2026-04-29 16:20:25.401 [main] BaseTest - Setting up WebDriver for thread: Thread[#1,main,5,main]
+[INFO ] 2026-04-29 16:20:28.761 [main] BaseTest - Browser launched and navigated to OrangeHRM.
+[INFO ] 2026-04-29 16:20:28.762 [main] listeners - loginPageTitleTest test started
+[INFO ] 2026-04-29 16:20:28.763 [main] LoginTest - Starting loginPageTitleTest
+[INFO ] 2026-04-29 16:20:29.439 [main] LoginTest - Login page title: Login
+[INFO ] 2026-04-29 16:20:29.439 [main] LoginTest - loginPageTitleTest PASSED
+[INFO ] 2026-04-29 16:20:29.440 [main] listeners - Test PASSED: loginPageTitleTest
+[INFO ] 2026-04-29 16:20:29.441 [main] BaseTest - Closing browser for thread: Thread[#1,main,5,main]
+[DEBUG] 2026-04-29 16:20:29.645 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-29 16:20:29.647 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-29 16:20:29.669 [TestNG-PoolService-1] BaseTest - Setting up WebDriver for thread: Thread[#76,TestNG-PoolService-1,5,main]
+[INFO ] 2026-04-29 16:20:33.215 [TestNG-PoolService-1] BaseTest - Browser launched and navigated to OrangeHRM.
+[INFO ] 2026-04-29 16:20:33.215 [TestNG-PoolService-1] listeners - loginValidTest test started
+[INFO ] 2026-04-29 16:20:33.217 [TestNG-PoolService-1] LoginTest - Starting loginValidTest
+[INFO ] 2026-04-29 16:20:36.060 [TestNG-PoolService-1] LoginTest - Dashboard title: Dashboard
+[INFO ] 2026-04-29 16:20:36.061 [TestNG-PoolService-1] LoginTest - loginValidTest PASSED for user: Admin
+[INFO ] 2026-04-29 16:20:36.062 [TestNG-PoolService-1] listeners - Test PASSED: loginValidTest
+[INFO ] 2026-04-29 16:20:36.063 [TestNG-PoolService-1] BaseTest - Closing browser for thread: Thread[#76,TestNG-PoolService-1,5,main]
+[DEBUG] 2026-04-29 16:20:36.287 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-29 16:20:36.289 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-29 16:20:36.306 [TestNG-PoolService-1] BaseTest - Setting up WebDriver for thread: Thread[#92,TestNG-PoolService-1,5,main]
+[INFO ] 2026-04-29 16:20:39.665 [TestNG-PoolService-1] BaseTest - Browser launched and navigated to OrangeHRM.
+[INFO ] 2026-04-29 16:20:39.666 [TestNG-PoolService-1] listeners - loginInvalidTest test started
+[INFO ] 2026-04-29 16:20:39.667 [TestNG-PoolService-1] LoginTest - Starting loginInvalidTest
+[ERROR] 2026-04-29 16:20:55.397 [TestNG-PoolService-1] listeners - Test FAILED: loginInvalidTest
+[INFO ] 2026-04-29 16:20:55.536 [TestNG-PoolService-1] listeners - Screenshot saved: C:\Selenium\PageFactoryFindBy/screenshots/loginInvalidTest.png
+[INFO ] 2026-04-29 16:20:55.536 [TestNG-PoolService-1] BaseTest - Closing browser for thread: Thread[#92,TestNG-PoolService-1,5,main]

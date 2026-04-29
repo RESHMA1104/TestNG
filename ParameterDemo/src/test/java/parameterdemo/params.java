@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 public class params {
     public WebDriver driver;
     @Parameters({"browser" ,"url"})
+    
     @BeforeTest
   public void setup(String browser ,String Url) {
    if (browser.equalsIgnoreCase("Edge")) {

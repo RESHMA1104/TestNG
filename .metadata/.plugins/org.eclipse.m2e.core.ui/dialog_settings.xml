@@ -46,6 +46,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="DemoBlazeProject"/>
+			<item value="PageFactoryWithBy"/>
 			<item value="ListnersProject"/>
 			<item value="Logging"/>
 			<item value="TutorialsNinja"/>
@@ -53,6 +55,8 @@
 			<item value="TestNGParameter"/>
 		</list>
 		<list key="name">
+			<item value="DBPageFactory"/>
+			<item value="PageDemo"/>
 			<item value="Listners"/>
 			<item value="LoggingDemo"/>
 			<item value="TutorialsProject"/>
@@ -60,6 +64,8 @@
 			<item value="DemoProject"/>
 		</list>
 		<list key="artifactId">
+			<item value="DemoWeb"/>
+			<item value="PageFactory"/>
 			<item value="ListnersDemo"/>
 			<item value="Log4jDemo"/>
 			<item value="NinjaDemo"/>

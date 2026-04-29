@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parameterdemo.params">
+      <class name="parameterdemo.DemoBlazePara">
         <methods>
-          <include name="invalidTest2"/>
-          <include name="invalidTest"/>
           <include name="setup"/>
+          <include name="before"/>
           <include name="afterTest"/>
-          <include name="loginTest"/>
         </methods>
-      </class> <!-- parameterdemo.params -->
+      </class> <!-- parameterdemo.DemoBlazePara -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

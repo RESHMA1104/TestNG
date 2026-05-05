@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Selenium\SeCucumber\pom.xml"/>
+			<item value="C:\Selenium\SeCucumber\src\test\resources\seleniumFeatures\Login.feature"/>
 			<item value="C:\Selenium\ParameterDemo\src\test\java\parameterdemo\params.java"/>
 			<item value="C:\Selenium\ProjectTestNG"/>
 			<item value="C:\Selenium\ProjectTestNG\src\test\java\testNGEx\Test_Assertions.java"/>
@@ -46,31 +48,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="DemoBlazeProject"/>
-			<item value="PageFactoryWithBy"/>
-			<item value="ListnersProject"/>
-			<item value="Logging"/>
-			<item value="TutorialsNinja"/>
-			<item value="DataDrivenFramework"/>
-			<item value="TestNGParameter"/>
+			<item value="TutorilsNinja"/>
+			<item value="CucumberDemo"/>
 		</list>
 		<list key="name">
-			<item value="DBPageFactory"/>
-			<item value="PageDemo"/>
-			<item value="Listners"/>
-			<item value="LoggingDemo"/>
-			<item value="TutorialsProject"/>
-			<item value="DataProviderDemo"/>
-			<item value="DemoProject"/>
+			<item value="TutorilsDemo"/>
+			<item value="CucuDemo"/>
 		</list>
 		<list key="artifactId">
-			<item value="DemoWeb"/>
-			<item value="PageFactory"/>
-			<item value="ListnersDemo"/>
-			<item value="Log4jDemo"/>
-			<item value="NinjaDemo"/>
-			<item value="DataDriven"/>
-			<item value="ParameterDemo"/>
+			<item value="Tutorils"/>
+			<item value="DemoBlazeCucu"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

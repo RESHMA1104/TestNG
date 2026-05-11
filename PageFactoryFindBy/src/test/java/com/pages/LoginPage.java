@@ -1,12 +1,17 @@
 package com.pages;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import com.tests.BaseTest;
 
 public class LoginPage extends BasePage{
 	public LoginPage(WebDriver driver) {
 		super(driver);
 	}
+	protected static final Logger log = LogManager.getLogger(LoginPage.class);
 	@FindBy(xpath = "//input[@name='username']" )
 	public WebElement username;
 	@FindBy(xpath = "//input[@name='password']")

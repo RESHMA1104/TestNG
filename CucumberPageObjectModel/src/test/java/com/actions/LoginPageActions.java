@@ -4,9 +4,12 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.pages.LoginPageLocators;
 import com.utils.HelperClass;
@@ -61,5 +64,13 @@ public class LoginPageActions {
 		this.setStrUserName(strUsername);
 		this.setStrPassWord(strPassword);
 		this.clickLogin();
+	}
+
+	public String getErrorMessage() {
+		 WebDriverWait wait = new WebDriverWait(HelperClass.getDriver(),Duration.ofSeconds(20));
+
+		    wait.until(ExpectedConditions.visibilityOf(LoginPageLocators.txtErrorMessage));
+
+		    return LoginPageLocators.txtErrorMessage.getText();
 	}
 }

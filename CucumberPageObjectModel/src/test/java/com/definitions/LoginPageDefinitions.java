@@ -29,5 +29,10 @@ public class LoginPageDefinitions {
 	public void user_should_be_able_to_login_successfully_and_should_see_dashboard() {
 		Assert.assertTrue(objHomePage.getHomePageText().contains("Dashboard"));
 	}
+	@Then("user should see error message")
+	public void user_should_see_error_message() {
+	    String actualText = objLogin.getErrorMessage();
+	    Assert.assertTrue(actualText.contains("Invalid credentials"));
+	}
 
 }

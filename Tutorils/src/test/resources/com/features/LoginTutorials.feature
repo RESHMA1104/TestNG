@@ -6,7 +6,7 @@ Scenario: Register with valid user details - DataTable without header
   And User click on My Account Link
   And User click on Register button
   When User enters valid registration details
-    | Reshma | K | Reshma123@gmail.com |  | Reshma@11 | Reshma@11 |
+    | Reshma | K | Reshma123@gmail.com | 1234567890 | Reshma@11 | Reshma@11 |
   And User selects privacy policy checkbox
   And User clicks on continue button
   Then User account should be created successfully

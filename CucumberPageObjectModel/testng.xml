@@ -1,0 +1,7 @@
+<suite name="Suite" parallel="false">
+  <test name="Sequential Test">
+    <classes>
+      <class name="com.runner.CucumberRunnerClass"/>
+    </classes>
+  </test>
+</suite>

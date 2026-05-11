@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Selenium\DemoBlazeCucu\src\test\resources"/>
 			<item value="C:\Selenium\SeCucumber\pom.xml"/>
 			<item value="C:\Selenium\SeCucumber\src\test\resources\seleniumFeatures\Login.feature"/>
 			<item value="C:\Selenium\ParameterDemo\src\test\java\parameterdemo\params.java"/>
@@ -48,14 +49,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="CucumberPageObject"/>
 			<item value="TutorilsNinja"/>
 			<item value="CucumberDemo"/>
 		</list>
 		<list key="name">
+			<item value="POModelCucu"/>
 			<item value="TutorilsDemo"/>
 			<item value="CucuDemo"/>
 		</list>
 		<list key="artifactId">
+			<item value="PageObjectModel"/>
 			<item value="Tutorils"/>
 			<item value="DemoBlazeCucu"/>
 		</list>

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Sequential Test(failed)">
     <classes>
-      <class name="com.runner.CucumberRunnerClass">
+      <class name="com.runner.UsageReports">
         <methods>
           <include name="setUpClass"/>
           <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.runner.CucumberRunnerClass -->
+      </class> <!-- com.runner.UsageReports -->
     </classes>
   </test> <!-- Sequential Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

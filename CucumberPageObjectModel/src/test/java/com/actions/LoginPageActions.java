@@ -69,8 +69,8 @@ public class LoginPageActions {
 	public String getErrorMessage() {
 		 WebDriverWait wait = new WebDriverWait(HelperClass.getDriver(),Duration.ofSeconds(20));
 
-		    wait.until(ExpectedConditions.visibilityOf(LoginPageLocators.txtErrorMessage));
+		    wait.until(ExpectedConditions.visibilityOf(loginpageLocators.txtErrorMessage));
 
-		    return LoginPageLocators.txtErrorMessage.getText();
+		    return loginpageLocators.txtErrorMessage.getText();
 	}
 }

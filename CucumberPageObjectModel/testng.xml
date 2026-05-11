@@ -1,7 +1,7 @@
 <suite name="Suite" parallel="false">
   <test name="Sequential Test">
     <classes>
-      <class name="com.runner.CucumberRunnerClass"/>
+      <class name="com.runner.UsageReports"/>
     </classes>
   </test>
 </suite>

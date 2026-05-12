@@ -1,9 +1,16 @@
-Feature : Login to HRM Application
+Feature: Login to HRM Application
 
-@ValidCredentials
-Scenario : Login with valid credentials
+  Background:
+    Given the user is launch the Home Page
 
-Given user is on the Home Page
-When user enters "username" as "Admin"
-When user enters "password" as "admin123"
-Then user should be able to login successfully. 
+  @ValidCredentials
+  Scenario: Login with valid credentials
+
+    Then user enters username as "<username>"
+    And user enters password as "<password>"
+    And user clicks on login button
+    Then the user should be logged in to the application successfully
+    
+    Examples:
+|username   |password  |
+|Admin      |admin123  |

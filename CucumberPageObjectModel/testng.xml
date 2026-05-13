@@ -1,7 +1,8 @@
-<suite name="Suite" parallel="false">
-  <test name="Sequential Test">
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="com.runner.UsageReports"/>
+      <class name="com.runner.TestNGRunner"/>
     </classes>
-  </test>
-</suite>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -6,7 +6,6 @@ import io.cucumber.testng.CucumberOptions;
 //features = "src/test/resources/cucumberFeature/login.feature",
 features = "src/test/resources/cucumberFeature/DemoBlazeLoginSO.feature",
 glue = "stepDefinition"
-
 )
 public class RunnerCucumber extends AbstractTestNGCucumberTests{
 	

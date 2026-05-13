@@ -17,12 +17,9 @@ public class HomePageActions {
    }
    
    public String getHomePageText() {
-	   WebDriverWait wait = new WebDriverWait(
-	            HelperClass.getDriver(),
-	            Duration.ofSeconds(20));
+	   WebDriverWait wait = new WebDriverWait(HelperClass.getDriver(),Duration.ofSeconds(20));
 
-	    wait.until(ExpectedConditions.visibilityOf(
-	            homePageLocators.homePageUserName));
+	    wait.until(ExpectedConditions.visibilityOf(homePageLocators.homePageUserName));
 
 	    return homePageLocators.homePageUserName.getText();
 	  

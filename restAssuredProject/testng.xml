@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.tests.APIValidation"/>
+      <class name="com.tests.SeleniumTest"/>
+      <class name="com.tests.GetUserTest"/>
+      <class name="com.tests.CreateUserTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

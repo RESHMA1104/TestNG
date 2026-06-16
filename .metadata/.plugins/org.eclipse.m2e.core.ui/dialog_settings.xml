@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Selenium\.git"/>
 			<item value="C:\Selenium\DemoBlazeCucu\src\test\resources"/>
 			<item value="C:\Selenium\SeCucumber\pom.xml"/>
 			<item value="C:\Selenium\SeCucumber\src\test\resources\seleniumFeatures\Login.feature"/>
@@ -19,6 +20,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -49,19 +51,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="CucumberPageObject"/>
-			<item value="TutorilsNinja"/>
-			<item value="CucumberDemo"/>
+			<item value="RestAssured"/>
 		</list>
 		<list key="name">
-			<item value="POModelCucu"/>
-			<item value="TutorilsDemo"/>
-			<item value="CucuDemo"/>
+			<item value="ProjectRestAssured"/>
 		</list>
 		<list key="artifactId">
-			<item value="PageObjectModel"/>
-			<item value="Tutorils"/>
-			<item value="DemoBlazeCucu"/>
+			<item value="restAssuredProject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -76,6 +72,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>

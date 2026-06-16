@@ -13,7 +13,7 @@ import io.restassured.response.Response;
 public class CreateUserTest {
   @Test
   public void f() {
-	  Map<String,Object> payload=new HashMap<>();   //json format 
+	  Map<String,Object> payload=new HashMap<>();
 	  payload.put("title","My First Post");
 	  payload.put("body","Learning RestAssured");
 	  payload.put("userId",1);

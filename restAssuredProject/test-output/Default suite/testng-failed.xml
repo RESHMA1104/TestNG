@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jsondbTests.PatchTest">
+      <class name="com.jsondbTests.OptionsTest">
         <methods>
-          <include name="put"/>
+          <include name="checkOptions"/>
         </methods>
-      </class> <!-- com.jsondbTests.PatchTest -->
+      </class> <!-- com.jsondbTests.OptionsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

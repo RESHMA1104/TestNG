@@ -9,7 +9,7 @@ public class DeleteTest {
   public void Delete() {
 	  Response response  = RestAssured.given()
 	  		  .when()
-	  		  .delete("http://localhost:3000/Trainees/CJh5q7AxaDo");
+	  		  .delete("http://localhost:3000/Trainees/3");
 	  System.out.println("Status : " +response.getStatusCode());
 	  response.prettyPrint();
 	  Assert.assertEquals(response.getStatusCode(), 200);

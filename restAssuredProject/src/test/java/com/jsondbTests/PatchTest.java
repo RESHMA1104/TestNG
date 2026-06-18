@@ -15,7 +15,8 @@ public class PatchTest {
   public void put() {
 	  Map<String, Object> payload = new HashMap<>();
 	  payload.put("company", "Virtusa");
-	  Response response  = RestAssured.given()
+	  Response response  = RestAssured
+			  .given()
 			  .contentType(ContentType.JSON)
 	  		  .body(payload)
 	  		  .when()

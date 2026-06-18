@@ -17,7 +17,8 @@ public class PostCreate {
 	  payload.put("name", "Vidhubala");
 	  payload.put("email", "vidhubala123@gmail.com");
 	  payload.put("company", "Google");
-	  Response response  = RestAssured.given()
+	  Response response  = RestAssured
+			  .given()
 			  .contentType(ContentType.JSON)
 	  		  .body(payload)
 	  		  .when()

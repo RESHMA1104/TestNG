@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Selenium\restAssuredProject\src\test\java\com\jsondbTests\PostCreate.java"/>
 			<item value="C:\Selenium\.git"/>
 			<item value="C:\Selenium\DemoBlazeCucu\src\test\resources"/>
 			<item value="C:\Selenium\SeCucumber\pom.xml"/>
@@ -51,12 +52,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="APITesting"/>
 			<item value="RestAssured"/>
 		</list>
 		<list key="name">
+			<item value="APIProjectRestAssured"/>
 			<item value="ProjectRestAssured"/>
 		</list>
 		<list key="artifactId">
+			<item value="APITestingProject"/>
 			<item value="restAssuredProject"/>
 		</list>
 		<list key="projectNameTemplate">

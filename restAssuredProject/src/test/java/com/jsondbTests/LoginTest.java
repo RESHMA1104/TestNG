@@ -16,7 +16,8 @@ public class LoginTest {
 	  Map<String, Object> payload = new HashMap<>();
 	  payload.put("username", "admin");
 	  payload.put("password", "admin123");
-	  Response response  = RestAssured.given()
+	  Response response  = RestAssured
+			  .given()
 			  .contentType(ContentType.JSON)
 	  		  .body(payload)
 	  		  .when()

@@ -17,11 +17,12 @@ public class PutTest {
 	  payload.put("name", "Vithya");
 	  payload.put("email", "vithya123@gmail.com");
 	  payload.put("company", "Virtusa");
-	  Response response  = RestAssured.given()
+	  Response response  = RestAssured
+			  .given()
 			  .contentType(ContentType.JSON)
 	  		  .body(payload)
 	  		  .when()
-	  		  .put("http://localhost:3000/Trainees/NYKO6KU4ZgM");
+	  		  .put("http://localhost:3000/Trainees/2");
 	  System.out.println("Status : " +response.getStatusCode());
 	  response.prettyPrint();
 	  Assert.assertEquals(response.getStatusCode(), 200);

@@ -11,7 +11,8 @@ public class OptionsTest {
   @Test
   public void checkOptions() {
 
-      Response response = RestAssured.given()
+      Response response = RestAssured
+    		  .given()
               .when()
               .options("http://localhost:3000/trainees");
 

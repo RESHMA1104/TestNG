@@ -1,4 +1,4 @@
-package com.test;
+package com.tests;
 
 import org.json.JSONObject;
 import org.testng.annotations.Test;

@@ -1,6 +1,5 @@
 package com.test;
 
-import org.json.JSONObject;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -8,20 +7,15 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 @Test
-public class LoginTest {
-	public void loginTest() {
-		JSONObject payload=new JSONObject();
-		payload.put("email","sam@gmail.com");
-		payload.put("password", "123");
+public class GetDataTest {
+	public void getDataTest() {
 		Response response = RestAssured
 		        .given()
 		        .contentType(ContentType.JSON)
-		        .body(payload.toString())
 		        .when()
-		        .post("https://lms-server-3-wedg.onrender.com/user/login");
-
+		        .get("https://lms-server-3-wedg.onrender.com/");
 		response.then()
-		        .statusCode(201)
+		        .statusCode(200)
 		        .log().all();
 	}
 }

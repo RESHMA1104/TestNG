@@ -52,14 +52,20 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="MobileAPP"/>
+			<item value="APPTesting"/>
 			<item value="APITesting"/>
 			<item value="RestAssured"/>
 		</list>
 		<list key="name">
+			<item value="TestngAPP"/>
+			<item value="MobileAppAppiumTesting"/>
 			<item value="APIProjectRestAssured"/>
 			<item value="ProjectRestAssured"/>
 		</list>
 		<list key="artifactId">
+			<item value="AppiumTesting"/>
+			<item value="MobileApp"/>
 			<item value="APITestingProject"/>
 			<item value="restAssuredProject"/>
 		</list>

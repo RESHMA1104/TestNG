@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [AppiumSuite]">
+  <test thread-count="2" parallel="tests" name="Device2(failed)">
+    <parameter name="port" value="4725"/>
+    <parameter name="udid" value="10BECZ0BR000549"/>
+    <classes>
+      <class name="com.tests.CalculatorParallelTest">
+        <methods>
+          <include name="testCalculator" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.tests.CalculatorParallelTest -->
+    </classes>
+  </test> <!-- Device2(failed) -->
+  <test thread-count="2" parallel="tests" name="Device1(failed)">
+    <parameter name="port" value="4723"/>
+    <parameter name="udid" value="96483105520006T"/>
+    <classes>
+      <class name="com.tests.CalculatorParallelTest">
+        <methods>
+          <include name="testCalculator" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.tests.CalculatorParallelTest -->
+    </classes>
+  </test> <!-- Device1(failed) -->
+</suite> <!-- Failed suite [AppiumSuite] -->

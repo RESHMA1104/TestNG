@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-18T16:55:41 IST" name="CalculatorParallelSuite" finished-at="2026-06-18T16:55:57 IST" duration-ms="15419">
+    <groups>
+    </groups>
+    <test started-at="2026-06-18T16:55:41 IST" name="VivoDevice2" finished-at="2026-06-18T16:55:42 IST" duration-ms="839">
+      <class name="com.tests.CalculatorParallelTest">
+        <test-method signature="testCalculator(java.lang.String,java.lang.String)[pri:0, instance:com.tests.CalculatorParallelTest@312aa7c]" started-at="2026-06-18T16:55:42 IST" name="testCalculator" finished-at="2026-06-18T16:55:42 IST" duration-ms="753" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10BECZ0BR000549]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4725]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'LAPTOP-EJPGAELM', ip: '192.168.1.119'
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:appActivity: com.vivo.calculator.Calculator, appium:appPackage: com.vivo.calculator, appium:automationName: UiAutomator2, appium:noReset: true, appium:udid: 10BECZ0BR000549, platformName: ANDROID}]}]
+Capabilities {appium:appActivity: com.vivo.calculator.Calculator, appium:appPackage: com.vivo.calculator, appium:automationName: UiAutomator2, appium:noReset: true, appium:udid: 10BECZ0BR000549, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'LAPTOP-EJPGAELM', ip: '192.168.1.119'
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:appActivity: com.vivo.calculator.Calculator, appium:appPackage: com.vivo.calculator, appium:automationName: UiAutomator2, appium:noReset: true, appium:udid: 10BECZ0BR000549, platformName: ANDROID}]}]
+Capabilities {appium:appActivity: com.vivo.calculator.Calculator, appium:appPackage: com.vivo.calculator, appium:automationName: UiAutomator2, appium:noReset: true, appium:udid: 10BECZ0BR000549, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:204)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:194)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
+at com.tests.DriverFactory.createDriver(DriverFactory.java:21)
+at com.tests.CalculatorParallelTest.testCalculator(CalculatorParallelTest.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: org.openqa.selenium.remote.http.jdk.ConnectionException: Connection error (POST http://127.0.0.1:4725/session)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:498)
+at io.appium.java_client.internal.filters.AppiumIdempotencyFilter.lambda$apply$0(AppiumIdempotencyFilter.java:36)
+at io.appium.java_client.internal.filters.AppiumUserAgentFilter.lambda$apply$0(AppiumUserAgentFilter.java:88)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$0(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$0(JdkHttpClient.java:399)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+... 4 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
+at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:473)
+... 9 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1065)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:873)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:961)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+... 9 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculator -->
+      </class> <!-- com.tests.CalculatorParallelTest -->
+    </test> <!-- VivoDevice2 -->
+    <test started-at="2026-06-18T16:55:41 IST" name="VivoDevice1" finished-at="2026-06-18T16:55:57 IST" duration-ms="15419">
+      <class name="com.tests.CalculatorParallelTest">
+        <test-method signature="testCalculator(java.lang.String,java.lang.String)[pri:0, instance:com.tests.CalculatorParallelTest@663c9e7a]" started-at="2026-06-18T16:55:42 IST" name="testCalculator" finished-at="2026-06-18T16:55:57 IST" duration-ms="15345" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[96483105520006T]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [0fc6dba0-36c1-41f8-a0fa-448a6d35d012, findElement {value=com.vivo.calculator:id/digit1, using=id}]
+Capabilities {appium:appActivity: com.vivo.calculator.Calculator, appium:appPackage: com.vivo.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vivo.calculator.Calculator, appPackage: com.vivo.calculator, automationName: UiAutomator2, noReset: true, platformName: ANDROID, udid: 96483105520006T}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: V2111, appium:deviceName: 96483105520006T, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 96483105520006T, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 12, appium:statBarHeight: 60, appium:takesScreenshot: true, appium:udid: 96483105520006T, appium:viewportRect: {height: 1540, left: 0, top: 60, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 0fc6dba0-36c1-41f8-a0fa-448a6d35d012]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [0fc6dba0-36c1-41f8-a0fa-448a6d35d012, findElement {value=com.vivo.calculator:id/digit1, using=id}]
+Capabilities {appium:appActivity: com.vivo.calculator.Calculator, appium:appPackage: com.vivo.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.vivo.calculator.Calculator, appPackage: com.vivo.calculator, automationName: UiAutomator2, noReset: true, platformName: ANDROID, udid: 96483105520006T}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: V2111, appium:deviceName: 96483105520006T, appium:deviceScreenDensity: 300, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 96483105520006T, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 1.875, appium:platformVersion: 12, appium:statBarHeight: 60, appium:takesScreenshot: true, appium:udid: 96483105520006T, appium:viewportRect: {height: 1540, left: 0, top: 60, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 0fc6dba0-36c1-41f8-a0fa-448a6d35d012
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+at com.tests.CalculatorParallelTest.testCalculator(CalculatorParallelTest.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculator -->
+      </class> <!-- com.tests.CalculatorParallelTest -->
+    </test> <!-- VivoDevice1 -->
+  </suite> <!-- CalculatorParallelSuite -->
+</testng-results>

@@ -608,3 +608,50 @@ java -ea -classpath C:\Users\Reshma\eclipse\jee-2024-06\eclipse\configuration\or
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2026-06-18 17:06:16.987
 !MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+!SESSION 2026-06-22 09:25:57.869 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=26
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-22 09:27:01.091
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-22 09:27:18.233
+!MESSAGE Logback config file: C:\Selenium\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-06-22 09:27:31.297
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Reshma'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.core 4 0 2026-06-22 09:27:31.795
+!MESSAGE Remove repository mapping of Git mapped resource for which project or mapped git repository has disappeared: 'RepositoryMapping[<empty> -> '.git', absolute path: 'C:/Selenium/LMS_RESTASSURE/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logAndUnmapGoneMappedResource(GitProjectData.java:751)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:714)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:678)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:661)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources$1.visit(WorkspaceConnector.java:452)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.start.WorkspaceConnector$IgnoreDerivedResources.resourceChanged(WorkspaceConnector.java:435)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:342)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:331)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:185)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:473)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1619)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
